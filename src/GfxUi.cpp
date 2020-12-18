@@ -61,7 +61,7 @@ void GfxUi::drawBmp(String filename, uint16_t x, uint16_t y)
   bmpFS = SPIFFS.open(filename, "r");
 
   uint32_t seekOffset;
-  uint16_t w, h, row, col;
+  uint16_t w, h, row;
   uint8_t  r, g, b;
 
   if (read16(bmpFS) == 0x4D42)
