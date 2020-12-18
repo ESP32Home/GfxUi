@@ -1,0 +1,29 @@
+{
+    "name": "GfxUi",
+    "version" : "1.0.0",
+    "description" : "Graphics User Interface tiny library for drawing bitmap files in tft screen",
+    "keywords" : "TFT, Bitmap, FS",
+    "license" : "MIT",
+    "repository":{
+        "type" : "git",
+        "url" : "https://github.com/ESP32Home/GfxUi.git"
+    },
+    "authors":[
+        {
+            "name" : "wassfila",
+            "url": "https://github.com/wassfila"
+        },
+        {
+            "name" : "Bodmer",
+            "url": "https://github.com/Bodmer/TFT_eSPI"
+        },
+        {
+            "name" : "Daniel Eichhorn",
+            "url": "http://blog.squix.ch"
+        }
+    ],
+    "dependencies":{
+    },
+    "frameworks" : "arduino",
+    "platforms" : "espressif32"
+}
